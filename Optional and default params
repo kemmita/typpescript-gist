@@ -1,0 +1,19 @@
+1. Below we append a question mark to create an optional param.
+```ts
+const family = (mom: string, dad: string, daughter?: string) => {
+    console.log(`the mother ${mom}, the father ${dad}, the daughter ${daughter}`);
+};
+
+
+console.log(family('michele', 'milton'));
+```
+
+2. To create a default param so undefined is not delivered to the user, we can decalre a default value in the params
+```ts
+const family = (mom: string, dad: string, daughter="daughter") => {
+    console.log(`the mother ${mom}, the father ${dad}, the daughter ${daughter}`);
+};
+
+
+console.log(family('michele', 'milton'));
+```
