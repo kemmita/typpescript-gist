@@ -1,0 +1,12 @@
+1. We can use the spread operator to combine two arrays.
+```ts
+let newAges:number[] = [1,2,3,4];
+
+let recordofAges:number[] = [...newAges,5,6,7]
+```
+2. We can also add a single element to an array
+```ts
+let newAges:number[] = [1,2,3,4];
+
+newAges = [...newAges,5]
+```
